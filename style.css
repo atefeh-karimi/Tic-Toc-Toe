@@ -1,0 +1,48 @@
+  * {
+      padding: 0;
+      margin: 0;
+      border: 0;
+    }
+
+    .container {
+      margin: 2rem auto;
+      max-width: 300px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    .cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      font-weight: bold;
+      width: 100px;
+      height: 100px;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+
+
+  .reset-btn {
+      display: flex;
+      margin: 2rem auto;
+      padding: 15px 30px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      border-radius: 10px;
+      border: 0px;
+      font-weight: 700;
+      box-shadow: 0px 0px 14px -7px #f09819;
+      background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+      cursor: pointer;
+  }
+
+.reset-btn:hover {
+  background-position: right center;
+  color: #fff;
+}
